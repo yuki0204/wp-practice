@@ -41,7 +41,7 @@
     <div class="pc">
       <div class="header_nav">
         <a class="logo" href="#top">
-          <img src="assets/images/pc_logo.svg" alt="">
+          <img src="<?php echo esc_url(get_template_directory_uri()).'/assets/images/pc_logo.svg';?>" alt="">
         </a>
         <ul class="nav_lists">
           <li><a href="#about">Nakanoya<span class="hira">吉兵衛</span>について</a></li>
